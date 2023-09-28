@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkdin</title>
+    <link rel="icon" type="image/png" href="linkedin-logo_578229-227.avif">
+    <link rel="stylesheet" href="index.css" />
+    
+</head>
+
+<body>
+   
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png" /></a>
+            <div class="search-box">
+                <img src="search.png" alt="" />
+                <input type="text" placeholder="Search" />
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="#" class="active-link"><img src="home.png" /><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="network.png" /><span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="jobs.png" /><span>Jobs</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="message.png" /><span>Messagin</span></a>
+                </li>
+                <li>
+                    <a href="#"><img src="notification.png" /><span>Notifications</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="nav-profile-img" onclick="toggleMenu()"
+                    alt="" />
+            </div>
+      
+
+        <!-- profile rop down -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" alt="" />
+                    <div>
+                        <h3>Pooja Rawat</h3>
+                        <a href="profile.html"> See your profile</a>
+                    </div>
+                </div>
+                <hr />
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="" />
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="setting.png" alt="" />
+                    <p>Setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="help.png" alt="" />
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="display.png" alt="" />
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+</>
+    <!-- navbar -->
+
+    <div class="container">
+        
+        <!-- letf-sidebar -->
+        <div class="letf-sidebar">
+            <div class="slidebar-profile-box">
+                <img src="WhatsApp Image 2023-09-26 at 8.14.27 PM.jpeg" width="100%" alt="" />
+                <div class="sidebar-profile-info">
+                    <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" alt="" />
+                    <h1>Pooja Rawat</h1>
+                    <h3>Full Stack Developer</h3>
+                    <ul>
+                        <li>Your profile views<span>200</span></li>
+                        <li>Your post views<span>810</span></li>
+                        <li>Your connection views<span>682</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="items.png" /></a>
+                    <a href="#"><img src="premium.png" /></a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="recent.png" />Web Development</a>
+                <a href="#"><img src="recent.png" />User Interface </a>
+                <a href="#"><img src="recent.png" />Online Learning Development</a>
+                <a href="#"><img src="recent.png" />learn Online</a>
+                <a href="#"><img src="recent.png" />group learning</a>
+                <a href="#"><img src="recent.png" />code better</a>
+                <h3>GROUP</h3>
+                <a href="#"><img src="group.png" />Web Design Grouo</a>
+                <a href="#"><img src="group.png" />Html & CSS learners</a>
+                <a href="#"><img src="group.png" />Javascript group</a>
+                <a href="#"><img src="group.png" />web design</a>
+                <h3>links</h3>
+                <a href="#"><img src="hashtag.png" />Web development</a>
+                <a href="#"><img src="hashtag.png" />user Interface</a>
+                <a href="#"><img src="hashtag.png" />Javascript group</a>
+                <a href="#"><img src="hashtag.png" />Online learners</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- main conntent -->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <li><img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" alt="" /></li>
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="photo.png" />Photo</li>
+                    <li><img src="video.png" />video</li>
+                    <li><img src="event.png" />event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr />
+                <p>
+                    Sort by: <span>top<img src="down-arrow.png" /></span>
+                </p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-3.png" alt="img" />
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                        <small>2 hourse ago</small>
+                    </div>
+                </div>
+                <p>
+                    The success of every website depends on search engine optimisation
+                    and digital marketing strategy . if you are on first page of all
+                    major search engines then you are ahead among your competitors.
+                </p>
+                <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" width="100%" />
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png" alt="" />
+                        <img src="love.png" alt="" />
+                        <img src="clap.png" alt="" />
+                        <span class="linked-user">Abhishek and 75 others </span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                            alt="" />
+                        <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="comment.png" alt="" />
+                        <span>Comment</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="share.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="send.png" alt="" />
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" alt="img" />
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                        <small>2 hourse ago</small>
+                    </div>
+                </div>
+                <p>
+                    Technical SEO is a very important step in the whole SEO process. If there are problems with your
+                    technical SEO then it is likely that your SEO efforts will not generate the expected results.
+
+                    It is thus crucial to make sure that you understand what is technical SEO and how to get it right.
+                </p>
+                <img src="web (2).jpg" width="100%" />
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png" alt="" />
+                        <img src="love.png" alt="" />
+                        <img src="clap.png" alt="" />
+                        <span class="linked-user">Abhishek and 75 others </span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                            alt="" />
+                        <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="comment.png" alt="" />
+                        <span>Comment</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="share.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="send.png" alt="" />
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-3.png" alt="img" />
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                        <small>2 hourse ago</small>
+                    </div>
+                </div>
+                <p>
+
+                    In English
+                    Web development refers to the creating, building, and maintaining of websites. It includes aspects
+                    such as web design, web publishing, web programming, and database management. It is the creation of
+                    an application that works over the internet i.e. websites.14-Jul-2023
+                </p>
+                <img src="web (1).gif" width="100%" />
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png" alt="" />
+                        <img src="love.png" alt="" />
+                        <img src="clap.png" alt="" />
+                        <span class="linked-user">Abhishek and 75 others </span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                            alt="" />
+                        <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="comment.png" alt="" />
+                        <span>Comment</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="share.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="send.png" alt="" />
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-4.png" alt="img" />
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                        <small>2 hourse ago</small>
+                    </div>
+                </div>
+                <p>
+                    Gratitude is a positive emotion that involves being thankful and appreciative and is associated with
+                    several mental and physical health benefits. When you experience gratitude, you feel grateful for
+                    something or someone in your life and respond with feelings of kindness, warmth, and other forms of
+                    generosity.
+
+                    The word gratitude can have a number of different meanings depending on how others use it and in
+                    what context.
+                </p>
+                <img src="post-image-4.png" width="100%" />
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png" alt="" />
+                        <img src="love.png" alt="" />
+                        <img src="clap.png" alt="" />
+                        <span class="linked-user">Abhishek and 75 others </span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                            alt="" />
+                        <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="comment.png" alt="" />
+                        <span>Comment</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="share.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="send.png" alt="" />
+                        <span>Send</span>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-author">
+                        <img src="user-4.png" alt="img" />
+                        <div>
+                            <h1>Benjamin Leo</h1>
+                            <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                            <small>2 hourse ago</small>
+                        </div>
+                    </div>
+                    <p>
+                        The term business model refers to a company's plan for making a profit. It identifies the
+                        products or services the business plans to sell, its identified target market, and any
+                        anticipated expenses. Business models are important for both new and established businesses.
+                        They help new, developing companies attract investment, recruit talent, and motivate management
+                        and staff.</p>
+                    <img src="post-image-3.png" width="100%" />
+                    <div class="post-stats">
+                        <div>
+                            <img src="thumbsup.png" alt="" />
+                            <img src="love.png" alt="" />
+                            <img src="clap.png" alt="" />
+                            <span class="linked-user">Abhishek and 75 others </span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares</span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <div>
+                            <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                                alt="" />
+                            <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                        </div>
+                        <div class="post-activity-link">
+                            <img src="like.png" alt="" />
+                            <span>Like</span>
+                        </div>
+                        <div post-activity-link>
+                            <img src="comment.png" alt="" />
+                            <span>Comment</span>
+                        </div>
+                        <div post-activity-link>
+                            <img src="share.png" alt="" />
+                            <span>Like</span>
+                        </div>
+                        <div post-activity-link>
+                            <img src="send.png" alt="" />
+                            <span>Send</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-author">
+                            <img src="user-4.png" alt="img" />
+                            <div>
+                                <h1>Benjamin Leo</h1>
+                                <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                                <small>2 hourse ago</small>
+                            </div>
+                        </div>
+                        <p>
+                            Full-stack developers design and create websites and applications for various platforms. A
+                            full-stack developer’s job description might include the following:
+
+                            Develop and maintain web services and interfaces
+
+                            Contribute to front-end and back-end development processes
+
+                            Build new product features or APIs
+
+                            Perform tests, troubleshoot software, and fix bugs
+
+                            Collaborate with other departments on projects and sprints
+
+                            The world of full-stack development is large, and many new and evolving technologies
+                            continually push the limits of what a full-stack developer can create. Staying on top of
+                            cutting-edge technology and techniques in the full-stack development field is one of the
+                            many exciting aspects of working in this role.
+                        </p>
+                        <img src="web (1).jpg" width="100%" />
+                        <div class="post-stats">
+                            <div>
+                                <img src="thumbsup.png" alt="" />
+                                <img src="love.png" alt="" />
+                                <img src="clap.png" alt="" />
+                                <span class="linked-user">Abhishek and 75 others </span>
+                            </div>
+                            <div>
+                                <span>22 comments &middot; 40 shares</span>
+                            </div>
+                        </div>
+                        <div class="post-activity">
+                            <div>
+                                <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                                    alt="" />
+                                <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                            </div>
+                            <div class="post-activity-link">
+                                <img src="like.png" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div post-activity-link>
+                                <img src="comment.png" alt="" />
+                                <span>Comment</span>
+                            </div>
+                            <div post-activity-link>
+                                <img src="share.png" alt="" />
+                                <span>Like</span>
+                            </div>
+                            <div post-activity-link>
+                                <img src="send.png" alt="" />
+                                <span>Send</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-5.png" alt="img" />
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angle Investor</small>
+                        <p>Maybe you have an especially big deadline ahead that's stressing you out, or you're sick of
+                            hearing the same office drama day in and day out. Or perhaps you're just feeling grumpy
+                            because you had to change out of your pajamas and put on real pants today.
+
+                            Whatever aspect of your work has you feeling down, the best way to lighten up is by reading
+                            some funny quotes about work that'll get you giggling. These 100 hilarious quips and funny
+                            work quotes poke fun at the ups and downs of being a working professional, and are
+                            guaranteed to make any day on the job better.</p>
+                        <small>2 hourse ago</small>
+                    </div>
+                </div>
+                <p>
+
+                </p>
+                <img src="post-image-1.png" width="100%" />
+                <div class="post-stats">
+                    <div>
+                        <img src="thumbsup.png" alt="" />
+                        <img src="love.png" alt="" />
+                        <img src="clap.png" alt="" />
+                        <span class="linked-user">Abhishek and 75 others </span>
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" class="post-activity-user-icon"
+                            alt="" />
+                        <img src="down-arrow.png" class="post-activity-arrow-icon" alt="" />
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="comment.png" alt="" />
+                        <span>Comment</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="share.png" alt="" />
+                        <span>Like</span>
+                    </div>
+                    <div post-activity-link>
+                        <img src="send.png" alt="" />
+                        <span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="more.png" class="info-icon" />
+                <h3>Traing News</h3>
+                <a href="#"> High demand for skilled manpowr</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#"> Careers growing horizontally too</a>
+                <span>19h ago &middot;1,552 readers</span>
+                <a href="#"> Less work visa for US, more for UK</a>
+                <span>1d ago &middot; 27,290 readers</span>
+
+                <a href="#"> More hiring = higher confidence?</a>
+                <span>18h ago &middot; 8,208 readers</span>
+
+                <a href="#"> Gautam Adani is the world's third richest</a>
+                <span>12h ago &middot; 4,205 readers</span>
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot; </small>
+                <p>Master the 5 principle of web design</p>
+
+                <div>
+                    <img src="WhatsApp Image 2023-08-19 at 9.07.39 PM.jpeg" alt="" />
+
+                    <img src="mi-logo.png" alt="" />
+                </div>
+
+                <b>Brad and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessiblity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png" alt="" />
+                    <p>Linkedup &#169; 2023. All right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
